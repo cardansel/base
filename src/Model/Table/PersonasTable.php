@@ -65,8 +65,7 @@ class PersonasTable extends Table
             ->notEmpty('Apellidos');
 
         $validator
-            ->scalar('FechaNac')
-            ->maxLength('FechaNac', 45)
+            ->date('FechaNac')
             ->requirePresence('FechaNac', 'create')
             ->notEmpty('FechaNac');
 

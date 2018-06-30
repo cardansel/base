@@ -20,7 +20,7 @@ class PersonasFixture extends TestFixture
         'id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'autoIncrement' => true, 'precision' => null],
         'Nombres' => ['type' => 'string', 'length' => 45, 'null' => false, 'default' => null, 'collate' => 'utf8_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'Apellidos' => ['type' => 'string', 'length' => 45, 'null' => false, 'default' => null, 'collate' => 'utf8_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
-        'FechaNac' => ['type' => 'string', 'length' => 45, 'null' => false, 'default' => null, 'collate' => 'utf8_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
+        'FechaNac' => ['type' => 'date', 'length' => null, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null],
         'Email' => ['type' => 'string', 'length' => 45, 'null' => false, 'default' => null, 'collate' => 'utf8_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'Telefonos' => ['type' => 'string', 'length' => 45, 'null' => false, 'default' => null, 'collate' => 'utf8_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'Direccion' => ['type' => 'string', 'length' => 45, 'null' => false, 'default' => null, 'collate' => 'utf8_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
@@ -49,12 +49,12 @@ class PersonasFixture extends TestFixture
                 'id' => 1,
                 'Nombres' => 'Lorem ipsum dolor sit amet',
                 'Apellidos' => 'Lorem ipsum dolor sit amet',
-                'FechaNac' => 'Lorem ipsum dolor sit amet',
+                'FechaNac' => '2018-06-29',
                 'Email' => 'Lorem ipsum dolor sit amet',
                 'Telefonos' => 'Lorem ipsum dolor sit amet',
                 'Direccion' => 'Lorem ipsum dolor sit amet',
-                'created' => '2018-06-29 19:35:24',
-                'modified' => '2018-06-29 19:35:24'
+                'created' => '2018-06-29 20:00:08',
+                'modified' => '2018-06-29 20:00:08'
             ],
         ];
         parent::init();

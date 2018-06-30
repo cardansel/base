@@ -25,10 +25,6 @@
             <td><?= h($persona->Apellidos) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('FechaNac') ?></th>
-            <td><?= h($persona->FechaNac) ?></td>
-        </tr>
-        <tr>
             <th scope="row"><?= __('Email') ?></th>
             <td><?= h($persona->Email) ?></td>
         </tr>
@@ -43,6 +39,10 @@
         <tr>
             <th scope="row"><?= __('Id') ?></th>
             <td><?= $this->Number->format($persona->id) ?></td>
+        </tr>
+        <tr>
+            <th scope="row"><?= __('FechaNac') ?></th>
+            <td><?= h($persona->FechaNac) ?></td>
         </tr>
         <tr>
             <th scope="row"><?= __('Created') ?></th>

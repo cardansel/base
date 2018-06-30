@@ -9,7 +9,7 @@ use Cake\ORM\Entity;
  * @property int $id
  * @property string $Nombres
  * @property string $Apellidos
- * @property string $FechaNac
+ * @property \Cake\I18n\FrozenDate $FechaNac
  * @property string $Email
  * @property string $Telefonos
  * @property string $Direccion
